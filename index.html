@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="index.js"></script>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        #ces{
+            overflow: hidden;
+            border: 1px solid #333;
+            display: flex;
+            justify-content: center;
+        }
+        #content{
+            position: relative;
+            display: inline-flex;
+        }
+    </style>
+</head>
+<body>
+<button id="revocation">撤销</button>
+<button id="recover">恢复</button>
+<div id="ces">
+    <div id="content">
+        <canvas id="myCanvas" width="1200" height="800"></canvas>
+    </div>
+</div>
+</body>
+</html>
